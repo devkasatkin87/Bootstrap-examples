@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>My Page</title>
+</head>
+<body>
+    <!-- включаем header -->
+    <div th:replace="fragments/header :: header"></div>
+
+    <!-- включаем body -->
+    <div th:replace="fragments/body :: body"></div>
+
+    <!-- включаем footer -->
+    <div th:replace="fragments/footer :: footer"></div>
+</body>
+</html>
